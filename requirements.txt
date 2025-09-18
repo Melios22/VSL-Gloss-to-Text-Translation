@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+peft
+googletrans
+nest-asyncio
+pandas
+tqdm
+sentencepiece
+hf_xet
+sacremoses

@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "model_name": "Helsinki-NLP/opus-mt-de-de",
+      "model_dir": "./models/Helsinki_de-de",
+      "is_direct": false,
+      "display_name": "Helsinki DE-DE (Gloss → German → Vietnamese)",
+      "available": true
+    },
+    {
+      "model_name": "Helsinki-NLP/opus-mt-de-vi",
+      "model_dir": "./models/Helsinki_de-vi",
+      "is_direct": true,
+      "display_name": "Helsinki DE-VI (Gloss → Vietnamese)",
+      "available": true
+    },
+    {
+      "model_name": "facebook/mbart-large-50-many-to-many-mmt",
+      "model_dir": "./models/facebook_de-de",
+      "is_direct": false,
+      "display_name": "Facebook mBART DE-DE (Gloss → German → Vietnamese)",
+      "available": true
+    },
+    {
+      "model_name": "facebook/mbart-large-50-many-to-many-mmt",
+      "model_dir": "./models/facebook_de-vi",
+      "is_direct": true,
+      "display_name": "Facebook mBART DE-VI (Gloss → Vietnamese)",
+      "available": true
+    },
+    {
+      "model_name": "Shahm/bart-german",
+      "model_dir": "./models/Shahm",
+      "is_direct": false,
+      "display_name": "Shahm BART German (Gloss → German → Vietnamese)",
+      "available": true
+    },
+    {
+      "model_name": "vinai/bartpho-word",
+      "model_dir": "./models/vinai",
+      "is_direct": true,
+      "display_name": "VinAI BARTpho (Gloss → Vietnamese)",
+      "available": false
+    }
+  ]
+}
