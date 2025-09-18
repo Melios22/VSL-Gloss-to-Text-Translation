@@ -104,7 +104,7 @@ The models were evaluated using standard machine translation metrics on the test
 
 | Model | Translation Task | SacreBLEU | CHRF |
 |-------|------------------|:-----------:|:------:|
-| vinai/bartpho-word | German Gloss → Vietnamese | - | - |
+| vinai/bartpho-word | German Gloss → Vietnamese | 23.606 | 38.502 |
 | Shahm/bart-german | German Gloss → German | 23.828 | 49.996 |
 | Helsinki-NLP/opus-mt-de-de | German Gloss → German | 22.261 | 46.928 |
 | Helsinki-NLP/opus-mt-de-vi | German → Vietnamese | 25.601 | 40.762 |
@@ -152,6 +152,13 @@ The models were evaluated using standard machine translation metrics on the test
    - **Stage 3**: Translate German sentence to Vietnamese using Google Translate
 
 3. **View Results**: See both intermediate results and the final Vietnamese translation
+
+### Application Demo
+
+<div align="center">
+<img src="assets/4_streamlit.png" alt="Streamlit Application Demo" width="700"/>
+<p><em>The Streamlit web interface showing the translation process from German gloss to Vietnamese text</em></p>
+</div>
 
 ## Project Structure
 
