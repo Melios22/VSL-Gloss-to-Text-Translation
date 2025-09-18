@@ -107,7 +107,7 @@ The models were evaluated using standard machine translation metrics on the test
 | vinai/bartpho-word | German Gloss → Vietnamese | 23.606 | 38.502 |
 | Shahm/bart-german | German Gloss → German | 23.828 | 49.996 |
 | Helsinki-NLP/opus-mt-de-de | German Gloss → German | 22.261 | 46.928 |
-| Helsinki-NLP/opus-mt-de-vi | German → Vietnamese | 25.601 | 40.762 |
+| Helsinki-NLP/opus-mt-de-vi | German Gloss → Vietnamese | 25.601 | 40.762 |
 | facebook/mbart-large-50-many-to-many-mmt | German Gloss → German | 24.724 | 50.921 |
 | facebook/mbart-large-50-many-to-many-mmt | German Gloss → Vietnamese | 14.417 | 29.545 |
 
@@ -123,7 +123,7 @@ The models were evaluated using standard machine translation metrics on the test
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Melios22/VSL-Gloss-to-Text-Translation.git
    cd VSL-Gloss-to-Text
    ```
 
@@ -171,9 +171,6 @@ VSL-Gloss-to-Text/
 ├── README.md                     # This file
 ├── .gitignore                    # Git ignore rules
 ├── assets/                       # Images and figures for documentation
-│   ├── 1_optimal.jpg
-│   ├── 2_reality.jpg
-│   └── 3_walkaround.jpg
 ├── data/                         # Processed dataset files
 │   ├── PHOENIX-2014-T.train.csv
 │   ├── PHOENIX-2014-T.dev.csv
@@ -204,19 +201,8 @@ The fine-tuned models are stored in the `models/` directory. Each model folder c
 ## Research Notebooks
 
 - **`notebooks/extract.ipynb`**: Data extraction and preprocessing pipeline
-- **`notebooks/vsl-finetune.ipynb`**: Model fine-tuning experiments and evaluation
+- **`notebooks/vsl-finetune-bart.ipynb`**: Model fine-tuning experiments and evaluation
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
@@ -224,9 +210,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Hugging Face for providing pre-trained models
 - The research community for advancing sign language translation
 
-## Contact
-
-For questions or collaboration opportunities, please open an issue or contact the project maintainers.
 
 ---
 
